@@ -68,7 +68,7 @@ body {
 /* ================= CENTER WINDOW ================= */
 .window {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.9);
   width: 80%;
@@ -83,7 +83,7 @@ body {
   display: none;
   animation: popup 0.5s forwards;
 
-  z-index: 5;              /* ⬅ DI ATAS BUNGA */
+  z-index: 20;              /* ⬅ DI ATAS BUNGA */
 }
 
 @keyframes popup {
@@ -201,7 +201,7 @@ textarea {
 .window h1,
 #typedText {
   position: relative;
-  z-index: 11;
+  z-index: 1;
 }
 
 .photo-stage2 {
@@ -240,7 +240,7 @@ textarea {
   right: -50px;
   width: 300px;      /* bisa kamu kecil/besarkan */
   pointer-events: none;
-  z-index: 4;
+  z-index: 10;
   opacity: 0.9;
 }
 
@@ -280,8 +280,8 @@ textarea {
 
   /* Jendela tengah lebih pas di HP */
   .window {
-    width: 90%;
-    max-width: 90%;
+    width: 80%;
+    max-width: 85%;
     padding: 18px;
     border-radius: 16px;
   }
@@ -397,17 +397,13 @@ const butterfly = document.getElementById('butterfly');
 const music = document.getElementById('music');
 
 const message =
-`* NOTE: Ucapan Ini hanya Contoh, Silakan Ganti Dengan Ucapanmu Sendiri Ya!*
-.
-.
-.
-.
-.
-Selamat ulang tahun untukmu, sosok yang kehadirannya selalu memberikan arti lebih bagi setiap orang di sekitarmu. Di hari yang istimewa ini, aku ingin memulai dengan rasa syukur yang paling dalam karena semesta telah mengizinkanmu lahir dan tumbuh menjadi pribadi yang luar biasa seperti sekarang. Hari ini bukan sekadar perayaan bertambahnya angka, melainkan perayaan atas segala kebaikan, cinta, dan ketulusan yang telah kamu bagikan selama setahun belakangan ini.
+`"Happy Birthday, Desvita Natasya.
 
-Melihat kembali perjalanan yang telah kamu lalui, aku merasa sangat bangga menyaksikan betapa kuatnya kamu menghadapi setiap tantangan yang datang. Kamu telah melewati berbagai musim kehidupan—mulai dari tawa yang paling renyah hingga air mata yang tersembunyi—namun kamu tetap berdiri tegak dengan hati yang tetap hangat. Ketangguhanmu adalah inspirasi bagiku, dan aku berharap kamu tidak pernah lupa betapa berharganya setiap perjuangan yang telah kamu menangkan sejauh ini.
-
-Memasuki usia yang baru ini, doa pertamaku adalah agar kamu selalu diberikan kesehatan yang sempurna, baik fisik maupun jiwa. Semoga setiap sel dalam tubuhmu diberkati dengan kekuatan, sehingga kamu bisa terus melangkah mengejar mimpi-mimpi besarmu tanpa rasa lelah yang berarti. Aku juga berharap pikiranmu selalu dilingkupi dengan ketenangan, agar dalam situasi tersulit sekalipun, kamu tetap bisa menemukan jalan keluar dengan penuh kebijaksanaan.
+Ndak kerasa ya, perjalanan kita ternyata sejauh ini. Kalau diingat-ingat lagi waktu zaman kita masih pakai seragam SMA dulu, pas masih sibuk-sibuknya rapat OSIS, sampai akhirnya kita kenal dekat. Aku masih ingat banget momen pas acara pembubaran panitia MPLS itu, pas kita camp bareng sama anggota yang lain. Dari mulai kita barengan satu motor di jalan, sampai di lokasi camp pun apa-apa kita bisa dibilang kita pasti bareng , 
+Memang kita sempat ndak baik, sempat jauh karena keadaan dan yaa… masalah pasangan kita  masing2  dulu. Tapi aku senang banget, setelah semua drama itu lewat, setelah kita lulus dan sibuk sama urusan masing2 aku yang kuliah dan kamu yang udah kerja kita akhirnya bisa balik lagi kayak dulu sebagai cees curhat. Cerita soal capeknya kerja/kuliah sesekali cerita tentang mantan, sampai akhirnya kita bisa benar-benar wujudin rencana tektok ke Sembalun kemarin yang udah di rencanain dari duluuuuuuu.
+Pas lagi tektok kemarin, meskipun aku lihat kamu capek banget di jalan, bahkan sempat ngeluh, trus kehujanan di jalan,  tapi kita bisa sampai di puncak. Lihat muka senang kamu pas di puncak itu ngebuatk ngerasa lega. Seneng juga bisa jadi orang yang nemenin kamu wujudin salah satu wishlist yang udah lama banget di rencanain itu.
+Di hari ulang tahun kamu ini, aku ndak punya banyak hal mewah, makanya aku buatin web sederhana ini khusus buat kamu. Aku pengen kamu tahu kalau aku bersyukur kamu ada lagi di hidupku yang stress inii. Semoga di umur yang baru ini, kamu makin sukses di tempat kerja, tetap jadi sosok yang kuat, dan semoga semua hal-hal baik selalu datang ke kamu.
+Makasih ya udah mau berjuang sampai SUMMIT bareng. Selamat ulang tahun, Ucok…. Wish you all the best."
 `;
 
 btn.onclick = () => {
@@ -472,3 +468,4 @@ function showWarning(){
 
 </body>
 </html>
+
